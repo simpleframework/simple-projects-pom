@@ -20,6 +20,9 @@
     <simple.mvc.ext>4.0.1-SNAPSHOT</simple.mvc.ext>
     <simple.mvc.template>4.0.1-SNAPSHOT</simple.mvc.template>
     <simple.portal>4.0.1-SNAPSHOT</simple.portal>
+    
+    <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
+    <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
     -->
     <!-- 部署环境 -->
     
@@ -31,6 +34,9 @@
     <simple.mvc.ext>4.0.0</simple.mvc.ext>
     <simple.mvc.template>4.0.0</simple.mvc.template>
     <simple.portal>4.0.0</simple.portal>
+    
+    <simple.module.organization.service>4.0.0</simple.module.organization.service>
+    <simple.module.organization.web>4.0.0</simple.module.organization.web>
   </properties>
 
   <developers>
