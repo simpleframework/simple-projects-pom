@@ -34,7 +34,6 @@
     <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
     -->
     <!-- 部署环境 -->
-    
     <simple.common>4.0.0</simple.common> 
     <simple.ado>4.0.0</simple.ado>
     <simple.context>4.0.0</simple.context>
