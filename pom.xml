@@ -47,6 +47,9 @@
     <simple.module.myportal.service>4.0.1-SNAPSHOT</simple.module.myportal.service>
     <simple.module.myportal.web>4.0.1-SNAPSHOT</simple.module.myportal.web>
     
+    <simple.module.settings.service>4.0.1-SNAPSHOT</simple.module.settings.service>
+    <simple.module.settings.web>4.0.1-SNAPSHOT</simple.module.settings.web>
+    
     <simple.module.bbs.service>4.0.1-SNAPSHOT</simple.module.bbs.service>
     <simple.module.bbs.web>4.0.1-SNAPSHOT</simple.module.bbs.web>
     
@@ -100,6 +103,9 @@
     
     <simple.module.myportal.service>4.0.0</simple.module.myportal.service>
     <simple.module.myportal.web>4.0.0</simple.module.myportal.web>
+    
+    <simple.module.settings.service>4.0.0</simple.module.settings.service>
+    <simple.module.settings.web>4.0.0</simple.module.settings.web>
 
     <simple.module.bbs.service>4.0.0</simple.module.bbs.service>
     <simple.module.bbs.web>4.0.0</simple.module.bbs.web>
