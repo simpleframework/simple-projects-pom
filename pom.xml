@@ -32,6 +32,11 @@
    
     <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
     <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
+    
+    <simple.module.workflow.common>4.0.1-SNAPSHOT</simple.module.workflow.common>
+    <simple.module.workflow.modeler>4.0.1-SNAPSHOT</simple.module.workflow.modeler>
+    <simple.module.workflow.service>4.0.1-SNAPSHOT</simple.module.workflow.service>
+    <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
     -->
     <!-- 部署环境 -->
     <simple.common>4.0.0</simple.common> 
@@ -54,6 +59,11 @@
     
     <simple.module.organization.service>4.0.0</simple.module.organization.service>
     <simple.module.organization.web>4.0.0</simple.module.organization.web>
+    
+    <simple.module.workflow.common>4.0.0</simple.module.workflow.common>
+    <simple.module.workflow.modeler>4.0.0</simple.module.workflow.modeler>
+    <simple.module.workflow.service>4.0.0</simple.module.workflow.service>
+    <simple.module.workflow.web>4.0.0</simple.module.workflow.web>
   </properties>
 
   <developers>
