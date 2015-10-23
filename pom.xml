@@ -27,6 +27,11 @@
     <simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
     <simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
     
+    <simple.module.druid>4.0.1-SNAPSHOT</simple.module.druid>
+    
+    <simple.module.pdf.service>4.0.1-SNAPSHOT</simple.module.pdf.service>
+    <simple.module.pdf.web>4.0.1-SNAPSHOT</simple.module.pdf.web>
+    
     <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
     <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
     
@@ -69,6 +74,11 @@
 
     <simple.module.log.service>4.0.0</simple.module.log.service>
     <simple.module.log.web>4.0.0</simple.module.log.web>
+    
+    <simple.module.druid>4.0.0</simple.module.druid>
+    
+    <simple.module.pdf.service>4.0.0</simple.module.pdf.service>
+    <simple.module.pdf.web>4.0.0</simple.module.pdf.web>
 
     <simple.module.organization.service>4.0.0</simple.module.organization.service>
     <simple.module.organization.web>4.0.0</simple.module.organization.web>
