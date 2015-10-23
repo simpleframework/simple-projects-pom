@@ -5,73 +5,73 @@
   <groupId>net.simpleframework</groupId>
   <artifactId>simple-projects-pom</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <url>http://simpleframework.net</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- 开发环境 -->
-    <!--
-    <simple.common>4.0.1-SNAPSHOT</simple.common>
-    <simple.ado>4.0.1-SNAPSHOT</simple.ado> 
-    <simple.context>4.0.1-SNAPSHOT</simple.context>
-    <simple.mvc.core>4.0.1-SNAPSHOT</simple.mvc.core>
-    <simple.mvc.impl>4.0.1-SNAPSHOT</simple.mvc.impl>
-    <simple.mvc.ext>4.0.1-SNAPSHOT</simple.mvc.ext>
-    <simple.mvc.template>4.0.1-SNAPSHOT</simple.mvc.template>
-    <simple.portal>4.0.1-SNAPSHOT</simple.portal>
+    
+    <simple.common>4.0-SNAPSHOT</simple.common>
+    <simple.ado>4.0-SNAPSHOT</simple.ado> 
+    <simple.context>4.0-SNAPSHOT</simple.context>
+    <simple.mvc.core>4.0-SNAPSHOT</simple.mvc.core>
+    <simple.mvc.impl>4.0-SNAPSHOT</simple.mvc.impl>
+    <simple.mvc.ext>4.0-SNAPSHOT</simple.mvc.ext>
+    <simple.mvc.template>4.0-SNAPSHOT</simple.mvc.template>
+    <simple.portal>4.0-SNAPSHOT</simple.portal>
    
-    <simple.module.common>4.0.1-SNAPSHOT</simple.module.common>
-    <simple.module.common.web>4.0.1-SNAPSHOT</simple.module.common.web>
+    <simple.module.common>4.0-SNAPSHOT</simple.module.common>
+    <simple.module.common.web>4.0-SNAPSHOT</simple.module.common.web>
     
-    <simple.app.common>4.0.1-SNAPSHOT</simple.app.common>
-    <simple.app.template>4.0.1-SNAPSHOT</simple.app.template>
+    <simple.app.common>4.0-SNAPSHOT</simple.app.common>
+    <simple.app.template>4.0-SNAPSHOT</simple.app.template>
     
-    <simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
-    <simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
+    <simple.module.log.service>4.0-SNAPSHOT</simple.module.log.service>
+    <simple.module.log.web>4.0-SNAPSHOT</simple.module.log.web>
     
-    <simple.module.druid>4.0.1-SNAPSHOT</simple.module.druid>
+    <simple.module.druid>4.0-SNAPSHOT</simple.module.druid>
     
-    <simple.module.pdf.service>4.0.1-SNAPSHOT</simple.module.pdf.service>
-    <simple.module.pdf.web>4.0.1-SNAPSHOT</simple.module.pdf.web>
+    <simple.module.pdf.service>4.0-SNAPSHOT</simple.module.pdf.service>
+    <simple.module.pdf.web>4.0-SNAPSHOT</simple.module.pdf.web>
     
-    <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
-    <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
+    <simple.module.organization.service>4.0-SNAPSHOT</simple.module.organization.service>
+    <simple.module.organization.web>4.0-SNAPSHOT</simple.module.organization.web>
     
-    <simple.module.msg.service>4.0.1-SNAPSHOT</simple.module.msg.service>
-    <simple.module.msg.web>4.0.1-SNAPSHOT</simple.module.msg.web>
+    <simple.module.msg.service>4.0-SNAPSHOT</simple.module.msg.service>
+    <simple.module.msg.web>4.0-SNAPSHOT</simple.module.msg.web>
     
-    <simple.module.vote.service>4.0.1-SNAPSHOT</simple.module.vote.service>
-    <simple.module.vote.web>4.0.1-SNAPSHOT</simple.module.vote.web>
+    <simple.module.vote.service>4.0-SNAPSHOT</simple.module.vote.service>
+    <simple.module.vote.web>4.0-SNAPSHOT</simple.module.vote.web>
     
-    <simple.module.tag.service>4.0.1-SNAPSHOT</simple.module.tag.service>
-    <simple.module.tag.web>4.0.1-SNAPSHOT</simple.module.tag.web>
+    <simple.module.tag.service>4.0-SNAPSHOT</simple.module.tag.service>
+    <simple.module.tag.web>4.0-SNAPSHOT</simple.module.tag.web>
     
-    <simple.module.myportal.service>4.0.1-SNAPSHOT</simple.module.myportal.service>
-    <simple.module.myportal.web>4.0.1-SNAPSHOT</simple.module.myportal.web>
+    <simple.module.myportal.service>4.0-SNAPSHOT</simple.module.myportal.service>
+    <simple.module.myportal.web>4.0-SNAPSHOT</simple.module.myportal.web>
     
-    <simple.module.settings.service>4.0.1-SNAPSHOT</simple.module.settings.service>
-    <simple.module.settings.web>4.0.1-SNAPSHOT</simple.module.settings.web>
+    <simple.module.settings.service>4.0-SNAPSHOT</simple.module.settings.service>
+    <simple.module.settings.web>4.0-SNAPSHOT</simple.module.settings.web>
     
-    <simple.module.bbs.service>4.0.1-SNAPSHOT</simple.module.bbs.service>
-    <simple.module.bbs.web>4.0.1-SNAPSHOT</simple.module.bbs.web>
+    <simple.module.bbs.service>4.0-SNAPSHOT</simple.module.bbs.service>
+    <simple.module.bbs.web>4.0-SNAPSHOT</simple.module.bbs.web>
     
-    <simple.module.news.service>4.0.1-SNAPSHOT</simple.module.news.service>
-    <simple.module.news.web>4.0.1-SNAPSHOT</simple.module.news.web>
+    <simple.module.news.service>4.0-SNAPSHOT</simple.module.news.service>
+    <simple.module.news.web>4.0-SNAPSHOT</simple.module.news.web>
     
-    <simple.module.favorite.service>4.0.1-SNAPSHOT</simple.module.favorite.service>
-    <simple.module.favorite.web>4.0.1-SNAPSHOT</simple.module.favorite.web>
+    <simple.module.favorite.service>4.0-SNAPSHOT</simple.module.favorite.service>
+    <simple.module.favorite.web>4.0-SNAPSHOT</simple.module.favorite.web>
    
-    <simple.module.dict.service>4.0.1-SNAPSHOT</simple.module.dict.service>
-    <simple.module.dict.web>4.0.1-SNAPSHOT</simple.module.dict.web>
+    <simple.module.dict.service>4.0-SNAPSHOT</simple.module.dict.service>
+    <simple.module.dict.web>4.0-SNAPSHOT</simple.module.dict.web>
     
-    <simple.module.workflow.common>4.0.1-SNAPSHOT</simple.module.workflow.common>
-    <simple.module.workflow.modeler>4.0.1-SNAPSHOT</simple.module.workflow.modeler>
-    <simple.module.workflow.service>4.0.1-SNAPSHOT</simple.module.workflow.service>
-    <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
-    -->
-    
+    <simple.module.workflow.common>4.0-SNAPSHOT</simple.module.workflow.common>
+    <simple.module.workflow.modeler>4.0-SNAPSHOT</simple.module.workflow.modeler>
+    <simple.module.workflow.service>4.0-SNAPSHOT</simple.module.workflow.service>
+    <simple.module.workflow.web>4.0-SNAPSHOT</simple.module.workflow.web>
+   
     <!-- 部署环境 -->
+    <!--
     <simple.common>4.0.0</simple.common>
     <simple.ado>4.0.0</simple.ado>
     <simple.context>4.0.0</simple.context>
@@ -129,6 +129,7 @@
     <simple.module.workflow.modeler>4.0.0</simple.module.workflow.modeler>
     <simple.module.workflow.service>4.0.0</simple.module.workflow.service>
     <simple.module.workflow.web>4.0.0</simple.module.workflow.web>
+    -->
   </properties>
 
   <developers>
