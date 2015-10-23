@@ -24,6 +24,9 @@
     <simple.module.common>4.0.1-SNAPSHOT</simple.module.common>
     <simple.module.common.web>4.0.1-SNAPSHOT</simple.module.common.web>
     
+    <simple.app.common>4.0.1-SNAPSHOT</simple.app.common>
+    <simple.app.template>4.0.1-SNAPSHOT</simple.app.template>
+    
     <simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
     <simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
     
@@ -80,6 +83,9 @@
 
     <simple.module.common>4.0.0</simple.module.common>
     <simple.module.common.web>4.0.0</simple.module.common.web>
+    
+    <simple.app.common>4.0.0</simple.app.common>
+    <simple.app.template>4.0.0</simple.app.template>  
 
     <simple.module.log.service>4.0.0</simple.module.log.service>
     <simple.module.log.web>4.0.0</simple.module.log.web>
