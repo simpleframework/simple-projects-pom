@@ -20,7 +20,16 @@
     <simple.mvc.ext>4.0.1-SNAPSHOT</simple.mvc.ext>
     <simple.mvc.template>4.0.1-SNAPSHOT</simple.mvc.template>
     <simple.portal>4.0.1-SNAPSHOT</simple.portal>
+   
+    <simple.module.common>4.0.1-SNAPSHOT</simple.module.common>
+    <simple.module.common.web>4.0.1-SNAPSHOT</simple.module.common.web>
     
+    <simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
+    <simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
+    
+    <simple.module.msg.service>4.0.1-SNAPSHOT</simple.module.msg.service>
+    <simple.module.msg.web>4.0.1-SNAPSHOT</simple.module.msg.web>
+   
     <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
     <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
     -->
@@ -34,6 +43,15 @@
     <simple.mvc.ext>4.0.0</simple.mvc.ext>
     <simple.mvc.template>4.0.0</simple.mvc.template>
     <simple.portal>4.0.0</simple.portal>
+    
+    <simple.module.common>4.0.0</simple.module.common>
+    <simple.module.common.web>4.0.0</simple.module.common.web>
+    
+    <simple.module.log.service>4.0.0</simple.module.log.service>
+    <simple.module.log.web>4.0.0</simple.module.log.web>
+    
+    <simple.module.msg.service>4.0.0</simple.module.msg.service>
+    <simple.module.msg.web>4.0.0</simple.module.msg.web>
     
     <simple.module.organization.service>4.0.0</simple.module.organization.service>
     <simple.module.organization.web>4.0.0</simple.module.organization.web>
