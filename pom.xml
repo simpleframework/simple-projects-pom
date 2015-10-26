@@ -166,6 +166,62 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <dependencyManagement>
+    <dependencies>
+      <!-- web容器包 -->
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+      </dependency>
+    
+      <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+        <version>2.7.2</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>com.caucho</groupId>
+        <artifactId>hessian</artifactId>
+        <version>4.0.38</version>
+      </dependency>
+      
+      <!-- 数据库连接池 -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>1.0.15</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-queryparser</artifactId>
+        <version>4.7.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-analyzers-smartcn</artifactId>
+        <version>4.7.2</version>
+      </dependency>
+      
+      <!-- jdbc驱动 -->
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.35</version>
+      </dependency>
+      
+      <!-- jgraphx -->
+      <dependency>
+        <groupId>org.tinyjee.jgraphx</groupId>
+        <artifactId>jgraphx</artifactId>
+        <version>2.3.0.5</version> 
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
     <!-- 打包资源文件到jar包 -->
