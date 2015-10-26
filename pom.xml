@@ -69,6 +69,8 @@
     <simple.module.workflow.modeler>4.0.1-SNAPSHOT</simple.module.workflow.modeler>
     <simple.module.workflow.service>4.0.1-SNAPSHOT</simple.module.workflow.service>
     <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
+    
+    <simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
    
     <!-- 部署环境 -->
     <!--
@@ -129,6 +131,8 @@
     <simple.module.workflow.modeler>4.0.0</simple.module.workflow.modeler>
     <simple.module.workflow.service>4.0.0</simple.module.workflow.service>
     <simple.module.workflow.web>4.0.0</simple.module.workflow.web>
+    
+    <simple.module.developer.web>4.0.0</simple.module.developer.web>
     -->
   </properties>
 
