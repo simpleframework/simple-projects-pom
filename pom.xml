@@ -11,7 +11,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- 开发环境 -->
-    
     <simple.common>4.0.1-SNAPSHOT</simple.common>
     <simple.ado>4.0.1-SNAPSHOT</simple.ado> 
     <simple.context>4.0.1-SNAPSHOT</simple.context>
@@ -305,5 +304,12 @@
       <id>snapshots</id>
       <url>http://maven.simpleframework.net/content/repositories/snapshots</url>
     </snapshotRepository>
+    
+    <!--
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://maven.simpleframework.net/content/repositories/pom-snapshots</url>
+    </snapshotRepository>
+    -->
   </distributionManagement>
 </project>
