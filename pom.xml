@@ -76,10 +76,10 @@
     <simple.common>4.0.0</simple.common>
     <simple.ado>4.0.0</simple.ado>
     <simple.context>4.0.0</simple.context>
-    <simple.mvc.core>4.0.0</simple.mvc.core>
+    <simple.mvc.core>4.0.1</simple.mvc.core>
     <simple.mvc.impl>4.0.0</simple.mvc.impl>
     <simple.mvc.ext>4.0.0</simple.mvc.ext>
-    <simple.mvc.template>4.0.0</simple.mvc.template>
+    <simple.mvc.template>4.0.1</simple.mvc.template>
     <simple.portal>4.0.0</simple.portal>
 
     <simple.module.common>4.0.0</simple.module.common>
@@ -97,7 +97,7 @@
     <simple.module.pdf.web>4.0.0</simple.module.pdf.web>
 
     <simple.module.organization.service>4.0.0</simple.module.organization.service>
-    <simple.module.organization.web>4.0.0</simple.module.organization.web>
+    <simple.module.organization.web>4.0.1</simple.module.organization.web>
 
     <simple.module.msg.service>4.0.0</simple.module.msg.service>
     <simple.module.msg.web>4.0.0</simple.module.msg.web>
