@@ -73,7 +73,7 @@
    
     <!-- 部署环境 -->
     <!--
-    <simple.common>4.0.0</simple.common>
+    <simple.common>4.0.1</simple.common>
     <simple.ado>4.0.0</simple.ado>
     <simple.context>4.0.1</simple.context>
     <simple.mvc.core>4.0.1</simple.mvc.core>
