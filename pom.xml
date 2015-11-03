@@ -103,7 +103,7 @@
     <simple.module.msg.web>4.0.0</simple.module.msg.web>
 
     <simple.module.vote.service>4.0.0</simple.module.vote.service>
-    <simple.module.vote.web>4.0.0</simple.module.vote.web>
+    <simple.module.vote.web>4.0.1</simple.module.vote.web>
     
     <simple.module.tag.service>4.0.0</simple.module.tag.service>
     <simple.module.tag.web>4.0.0</simple.module.tag.web>
