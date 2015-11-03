@@ -75,7 +75,7 @@
     <!--
     <simple.common>4.0.0</simple.common>
     <simple.ado>4.0.0</simple.ado>
-    <simple.context>4.0.0</simple.context>
+    <simple.context>4.0.1</simple.context>
     <simple.mvc.core>4.0.1</simple.mvc.core>
     <simple.mvc.impl>4.0.0</simple.mvc.impl>
     <simple.mvc.ext>4.0.0</simple.mvc.ext>
