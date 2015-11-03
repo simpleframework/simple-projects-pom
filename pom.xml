@@ -129,7 +129,7 @@
     <simple.module.workflow.common>4.0.0</simple.module.workflow.common>
     <simple.module.workflow.modeler>4.0.0</simple.module.workflow.modeler>
     <simple.module.workflow.service>4.0.0</simple.module.workflow.service>
-    <simple.module.workflow.web>4.0.0</simple.module.workflow.web>
+    <simple.module.workflow.web>4.0.1</simple.module.workflow.web>
     
     <simple.module.developer.web>4.0.0</simple.module.developer.web>
     -->
