@@ -85,7 +85,7 @@
     <simple.module.common>4.0.0</simple.module.common>
     <simple.module.common.web>4.0.0</simple.module.common.web>
     
-    <simple.app.common>4.0.0</simple.app.common>
+    <simple.app.common>4.0.1</simple.app.common>
     <simple.app.template>4.0.0</simple.app.template>  
 
     <simple.module.log.service>4.0.0</simple.module.log.service>
@@ -117,8 +117,8 @@
     <simple.module.bbs.service>4.0.0</simple.module.bbs.service>
     <simple.module.bbs.web>4.0.0</simple.module.bbs.web>
 
-    <simple.module.news.service>4.0.0</simple.module.news.service>
-    <simple.module.news.web>4.0.0</simple.module.news.web>
+    <simple.module.news.service>4.0.1</simple.module.news.service>
+    <simple.module.news.web>4.0.1</simple.module.news.web>
 
     <simple.module.favorite.service>4.0.0</simple.module.favorite.service>
     <simple.module.favorite.web>4.0.0</simple.module.favorite.web>
