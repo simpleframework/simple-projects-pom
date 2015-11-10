@@ -96,7 +96,7 @@
     <simple.module.pdf.service>4.0.0</simple.module.pdf.service>
     <simple.module.pdf.web>4.0.0</simple.module.pdf.web>
 
-    <simple.module.organization.service>4.0.0</simple.module.organization.service>
+    <simple.module.organization.service>4.0.1</simple.module.organization.service>
     <simple.module.organization.web>4.0.1</simple.module.organization.web>
 
     <simple.module.msg.service>4.0.0</simple.module.msg.service>
@@ -114,8 +114,8 @@
     <simple.module.settings.service>4.0.0</simple.module.settings.service>
     <simple.module.settings.web>4.0.0</simple.module.settings.web>
 
-    <simple.module.bbs.service>4.0.0</simple.module.bbs.service>
-    <simple.module.bbs.web>4.0.0</simple.module.bbs.web>
+    <simple.module.bbs.service>4.0.1</simple.module.bbs.service>
+    <simple.module.bbs.web>4.0.1</simple.module.bbs.web>
 
     <simple.module.news.service>4.0.1</simple.module.news.service>
     <simple.module.news.web>4.0.1</simple.module.news.web>
@@ -123,7 +123,7 @@
     <simple.module.favorite.service>4.0.0</simple.module.favorite.service>
     <simple.module.favorite.web>4.0.0</simple.module.favorite.web>
 
-    <simple.module.dict.service>4.0.0</simple.module.dict.service>
+    <simple.module.dict.service>4.0.1</simple.module.dict.service>
     <simple.module.dict.web>4.0.0</simple.module.dict.web>
 
     <simple.module.workflow.common>4.0.0</simple.module.workflow.common>
