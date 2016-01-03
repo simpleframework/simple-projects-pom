@@ -40,6 +40,9 @@
     <simple.module.msg.service>4.0.1-SNAPSHOT</simple.module.msg.service>
     <simple.module.msg.web>4.0.1-SNAPSHOT</simple.module.msg.web>
     
+    <simple.module.contacts.service>4.0.1-SNAPSHOT</simple.module.contacts.service>
+    <simple.module.contacts.web>4.0.1-SNAPSHOT</simple.module.contacts.web>
+    
     <simple.module.vote.service>4.0.1-SNAPSHOT</simple.module.vote.service>
     <simple.module.vote.web>4.0.1-SNAPSHOT</simple.module.vote.web>
     
@@ -101,6 +104,9 @@
 
     <simple.module.msg.service>4.0.0</simple.module.msg.service>
     <simple.module.msg.web>4.0.0</simple.module.msg.web>
+    
+    <simple.module.contacts.service>4.0.0</simple.module.contacts.service>
+    <simple.module.contacts.web>4.0.0</simple.module.contacts.web>
 
     <simple.module.vote.service>4.0.0</simple.module.vote.service>
     <simple.module.vote.web>4.0.1</simple.module.vote.web>
