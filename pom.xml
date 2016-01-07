@@ -423,6 +423,18 @@
         <version>${simple.module.workflow.web}</version>
       </dependency>
       
+      <!-- simple app common -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-app-common</artifactId>
+        <version>${simple.app.common}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-app-template</artifactId>
+        <version>${simple.app.template}</version>
+      </dependency>
+      
       <!-- web容器包 -->
       <dependency>
         <groupId>javax.servlet</groupId>
