@@ -178,6 +178,251 @@
   
   <dependencyManagement>
     <dependencies>
+      <!-- simple4.x -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-common</artifactId>
+        <version>${simple.common}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-ado</artifactId>
+        <version>${simple.ado}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-context</artifactId>
+        <version>${simple.context}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-core</artifactId>
+        <version>${simple.mvc.core}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-impl</artifactId>
+        <version>${simple.mvc.impl}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-ext</artifactId>
+        <version>${simple.mvc.ext}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-template</artifactId>
+        <version>${simple.mvc.template}</version>
+      </dependency>
+    
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-portal</artifactId>
+        <version>${simple.portal}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-common</artifactId>
+        <version>${simple.module.common}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-common-web</artifactId>
+        <version>${simple.module.common.web}</version>
+      </dependency>
+      
+      <!--simple日志 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-log-service</artifactId>
+        <version>${simple.module.log.service}</version>
+      </dependency>     
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-log-web</artifactId>
+        <version>${simple.module.log.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-dict-service</artifactId>
+        <version>${simple.module.dict.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-dict-web</artifactId>
+        <version>${simple.module.dict.web}</version>
+      </dependency>
+      
+      <!--simple消息 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-msg-service</artifactId>
+        <version>${simple.module.msg.service}</version>
+      </dependency>      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-msg-web</artifactId>
+        <version>${simple.module.msg.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-tag-service</artifactId>
+        <version>${simple.module.tag.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-tag-web</artifactId>
+        <version>${simple.module.tag.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-bbs-service</artifactId>
+        <version>${simple.module.bbs.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-bbs-web</artifactId>
+        <version>${simple.module.bbs.web}</version>
+      </dependency>
+      
+      <!-- simple 收藏 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-favorite-service</artifactId>
+        <version>${simple.module.favorite.service}</version>
+      </dependency>      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-favorite-web</artifactId>
+        <version>${simple.module.favorite.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-myportal-service</artifactId>
+        <version>${simple.module.myportal.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-myportal-web</artifactId>
+        <version>${simple.module.myportal.web}</version>
+      </dependency>
+      
+      <!-- 新闻 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-news-service</artifactId>
+        <version>${simple.module.news.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-news-web</artifactId>
+        <version>${simple.module.news.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-vote-service</artifactId>
+        <version>${simple.module.vote.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-vote-web</artifactId>
+        <version>${simple.module.vote.web}</version>
+      </dependency>
+      
+      <!-- simple pdf -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-pdf-service</artifactId>
+        <version>${simple.module.pdf.service}</version>
+      </dependency>      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-pdf-web</artifactId>
+        <version>${simple.module.pdf.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-settings-service</artifactId>
+        <version>${simple.module.settings.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-settings-web</artifactId>
+        <version>${simple.module.settings.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-druid</artifactId>
+        <version>${simple.module.druid}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-contacts-service</artifactId>
+        <version>${simple.module.contacts.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-contacts-web</artifactId>
+        <version>${simple.module.contacts.web}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-organization-service</artifactId>
+        <version>${simple.module.organization.service}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-organization-web</artifactId>
+        <version>${simple.module.organization.web}</version>
+      </dependency>
+      
+      <!-- simple 工作流 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-common</artifactId>
+        <version>${simple.module.workflow.common}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-modeler</artifactId>
+        <version>${simple.module.workflow.modeler}</version>
+      </dependency> 
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-service</artifactId>
+        <version>${simple.module.workflow.service}</version>
+      </dependency> 
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-web</artifactId>
+        <version>${simple.module.workflow.web}</version>
+      </dependency>
+      
       <!-- web容器包 -->
       <dependency>
         <groupId>javax.servlet</groupId>
