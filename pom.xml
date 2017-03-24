@@ -76,68 +76,68 @@
    
     <!-- 部署环境 -->
     <!--
-    <simple.common>4.0.1</simple.common>
-    <simple.ado>4.0.1</simple.ado>
-    <simple.context>4.0.1</simple.context>
-    <simple.mvc.core>4.0.1</simple.mvc.core>
-    <simple.mvc.impl>4.0.1</simple.mvc.impl>
-    <simple.mvc.ext>4.0.1</simple.mvc.ext>
-    <simple.mvc.template>4.0.1</simple.mvc.template>
-    <simple.portal>4.0.0</simple.portal>
+    <simple.common>4.1.1</simple.common>
+    <simple.ado>4.1.1</simple.ado>
+    <simple.context>4.1.1</simple.context>
+    <simple.mvc.core>4.1.1</simple.mvc.core>
+    <simple.mvc.impl>4.1.1</simple.mvc.impl>
+    <simple.mvc.ext>4.1.1</simple.mvc.ext>
+    <simple.mvc.template>4.1.1</simple.mvc.template>
+    <simple.portal>4.1.0</simple.portal>
 
-    <simple.module.common>4.0.0</simple.module.common>
-    <simple.module.common.web>4.0.0</simple.module.common.web>
+    <simple.module.common>4.1.0</simple.module.common>
+    <simple.module.common.web>4.1.0</simple.module.common.web>
     
-    <simple.app.common>4.0.1</simple.app.common>
-    <simple.app.template>4.0.0</simple.app.template>  
+    <simple.app.common>4.1.1</simple.app.common>
+    <simple.app.template>4.1.0</simple.app.template>  
 
-    <simple.module.log.service>4.0.0</simple.module.log.service>
-    <simple.module.log.web>4.0.0</simple.module.log.web>
+    <simple.module.log.service>4.1.0</simple.module.log.service>
+    <simple.module.log.web>4.1.0</simple.module.log.web>
     
-    <simple.module.druid>4.0.0</simple.module.druid>
+    <simple.module.druid>4.1.0</simple.module.druid>
     
-    <simple.module.pdf.service>4.0.0</simple.module.pdf.service>
-    <simple.module.pdf.web>4.0.0</simple.module.pdf.web>
+    <simple.module.pdf.service>4.1.0</simple.module.pdf.service>
+    <simple.module.pdf.web>4.1.0</simple.module.pdf.web>
 
-    <simple.module.organization.service>4.0.1</simple.module.organization.service>
-    <simple.module.organization.web>4.0.1</simple.module.organization.web>
+    <simple.module.organization.service>4.1.1</simple.module.organization.service>
+    <simple.module.organization.web>4.1.1</simple.module.organization.web>
 
-    <simple.module.msg.service>4.0.0</simple.module.msg.service>
-    <simple.module.msg.web>4.0.0</simple.module.msg.web>
+    <simple.module.msg.service>4.1.0</simple.module.msg.service>
+    <simple.module.msg.web>4.1.0</simple.module.msg.web>
     
-    <simple.module.contacts.service>4.0.0</simple.module.contacts.service>
-    <simple.module.contacts.web>4.0.0</simple.module.contacts.web>
+    <simple.module.contacts.service>4.1.0</simple.module.contacts.service>
+    <simple.module.contacts.web>4.1.0</simple.module.contacts.web>
 
-    <simple.module.vote.service>4.0.0</simple.module.vote.service>
-    <simple.module.vote.web>4.0.1</simple.module.vote.web>
+    <simple.module.vote.service>4.1.0</simple.module.vote.service>
+    <simple.module.vote.web>4.1.1</simple.module.vote.web>
     
-    <simple.module.tag.service>4.0.0</simple.module.tag.service>
-    <simple.module.tag.web>4.0.0</simple.module.tag.web>
+    <simple.module.tag.service>4.1.0</simple.module.tag.service>
+    <simple.module.tag.web>4.1.0</simple.module.tag.web>
     
-    <simple.module.myportal.service>4.0.0</simple.module.myportal.service>
-    <simple.module.myportal.web>4.0.0</simple.module.myportal.web>
+    <simple.module.myportal.service>4.1.0</simple.module.myportal.service>
+    <simple.module.myportal.web>4.1.0</simple.module.myportal.web>
     
-    <simple.module.settings.service>4.0.0</simple.module.settings.service>
-    <simple.module.settings.web>4.0.0</simple.module.settings.web>
+    <simple.module.settings.service>4.1.0</simple.module.settings.service>
+    <simple.module.settings.web>4.1.0</simple.module.settings.web>
 
-    <simple.module.bbs.service>4.0.1</simple.module.bbs.service>
-    <simple.module.bbs.web>4.0.1</simple.module.bbs.web>
+    <simple.module.bbs.service>4.1.1</simple.module.bbs.service>
+    <simple.module.bbs.web>4.1.1</simple.module.bbs.web>
 
-    <simple.module.news.service>4.0.1</simple.module.news.service>
-    <simple.module.news.web>4.0.1</simple.module.news.web>
+    <simple.module.news.service>4.1.1</simple.module.news.service>
+    <simple.module.news.web>4.1.1</simple.module.news.web>
 
-    <simple.module.favorite.service>4.0.0</simple.module.favorite.service>
-    <simple.module.favorite.web>4.0.0</simple.module.favorite.web>
+    <simple.module.favorite.service>4.1.0</simple.module.favorite.service>
+    <simple.module.favorite.web>4.1.0</simple.module.favorite.web>
 
-    <simple.module.dict.service>4.0.1</simple.module.dict.service>
-    <simple.module.dict.web>4.0.0</simple.module.dict.web>
+    <simple.module.dict.service>4.1.1</simple.module.dict.service>
+    <simple.module.dict.web>4.1.0</simple.module.dict.web>
 
-    <simple.module.workflow.common>4.0.0</simple.module.workflow.common>
-    <simple.module.workflow.modeler>4.0.0</simple.module.workflow.modeler>
-    <simple.module.workflow.service>4.0.0</simple.module.workflow.service>
-    <simple.module.workflow.web>4.0.1</simple.module.workflow.web>
+    <simple.module.workflow.common>4.1.0</simple.module.workflow.common>
+    <simple.module.workflow.modeler>4.1.0</simple.module.workflow.modeler>
+    <simple.module.workflow.service>4.1.0</simple.module.workflow.service>
+    <simple.module.workflow.web>4.1.1</simple.module.workflow.web>
     
-    <simple.module.developer.web>4.0.0</simple.module.developer.web>
+    <simple.module.developer.web>4.1.0</simple.module.developer.web>
     -->
   </properties>
 
