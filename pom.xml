@@ -5,12 +5,16 @@
   <groupId>net.simpleframework</groupId>
   <artifactId>simple-projects-pom</artifactId>
   <packaging>pom</packaging>
+  <!--  
   <version>1.0.0-SNAPSHOT</version>
+  -->
+  <version>1.1.0</version>
   <url>http://simpleframework.net</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- 开发环境 -->
+    <!--
     <simple.common>4.0.1-SNAPSHOT</simple.common>
     <simple.ado>4.0.1-SNAPSHOT</simple.ado> 
     <simple.context>4.0.1-SNAPSHOT</simple.context>
@@ -73,9 +77,9 @@
     <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
     
     <simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
-   
+    -->
+    
     <!-- 部署环境 -->
-    <!--
     <simple.common>4.1.1</simple.common>
     <simple.ado>4.1.1</simple.ado>
     <simple.context>4.1.1</simple.context>
@@ -138,7 +142,6 @@
     <simple.module.workflow.web>4.1.1</simple.module.workflow.web>
     
     <simple.module.developer.web>4.1.0</simple.module.developer.web>
-    -->
   </properties>
 
   <developers>
