@@ -5,17 +5,17 @@
   <groupId>net.simpleframework</groupId>
   <artifactId>simple-projects-pom</artifactId>
   <packaging>pom</packaging> 
-  <version>1.0.0-SNAPSHOT</version>
   
+  <version>1.0.0-SNAPSHOT</version>
   <!--
-  <version>1.1.1</version>
-  --> 
+  <version>1.1.2</version>
+  -->
   <url>http://simpleframework.net</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- 开发环境 -->
-      
+    <!--  
     <simple.common>4.0.1-SNAPSHOT</simple.common>
     <simple.ado>4.0.1-SNAPSHOT</simple.ado> 
     <simple.context>4.0.1-SNAPSHOT</simple.context>
@@ -78,15 +78,15 @@
     <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
     
     <simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
-    
+    -->
     <!-- 部署环境 -->
-    <!--
-    <simple.common>4.1.1</simple.common>
+    
+    <simple.common>4.1.2</simple.common>
     <simple.ado>4.1.2</simple.ado>
     <simple.context>4.1.1</simple.context>
     <simple.mvc.core>4.1.2</simple.mvc.core>
-    <simple.mvc.impl>4.1.2</simple.mvc.impl>
-    <simple.mvc.ext>4.1.2</simple.mvc.ext>
+    <simple.mvc.impl>4.1.3</simple.mvc.impl>
+    <simple.mvc.ext>4.1.3</simple.mvc.ext>
     <simple.mvc.template>4.1.1</simple.mvc.template>
     <simple.portal>4.1.0</simple.portal>
 
@@ -129,7 +129,7 @@
     <simple.module.bbs.web>4.1.1</simple.module.bbs.web>
 
     <simple.module.news.service>4.1.2</simple.module.news.service>
-    <simple.module.news.web>4.1.1</simple.module.news.web>
+    <simple.module.news.web>4.1.2</simple.module.news.web>
 
     <simple.module.favorite.service>4.1.0</simple.module.favorite.service>
     <simple.module.favorite.web>4.1.0</simple.module.favorite.web>
@@ -137,13 +137,13 @@
     <simple.module.dict.service>4.1.1</simple.module.dict.service>
     <simple.module.dict.web>4.1.0</simple.module.dict.web>
 
-    <simple.module.workflow.common>4.1.0</simple.module.workflow.common>
+    <simple.module.workflow.common>4.1.1</simple.module.workflow.common>
     <simple.module.workflow.modeler>4.1.0</simple.module.workflow.modeler>
     <simple.module.workflow.service>4.1.1</simple.module.workflow.service>
     <simple.module.workflow.web>4.1.1</simple.module.workflow.web>
     
     <simple.module.developer.web>4.1.0</simple.module.developer.web>
-    -->
+    
   </properties>
 
   <developers>
