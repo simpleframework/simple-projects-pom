@@ -15,7 +15,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- 开发环境 -->
-    <!--  
+     
     <simple.common>4.0.1-SNAPSHOT</simple.common>
     <simple.ado>4.0.1-SNAPSHOT</simple.ado> 
     <simple.context>4.0.1-SNAPSHOT</simple.context>
@@ -78,9 +78,9 @@
     <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
     
     <simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
-    -->
-    <!-- 部署环境 -->
     
+    <!-- 部署环境 -->
+    <!-- 
     <simple.common>4.1.2</simple.common>
     <simple.ado>4.1.2</simple.ado>
     <simple.context>4.1.1</simple.context>
@@ -143,7 +143,7 @@
     <simple.module.workflow.web>4.1.1</simple.module.workflow.web>
     
     <simple.module.developer.web>4.1.0</simple.module.developer.web>
-    
+    -->
   </properties>
 
   <developers>
@@ -458,13 +458,13 @@
       <dependency>
         <groupId>org.apache.ant</groupId>
         <artifactId>ant</artifactId>
-        <version>1.8.4</version>
+        <version>1.10.1</version>
       </dependency>
       
       <dependency>
         <groupId>com.yahoo.platform.yui</groupId>
         <artifactId>yuicompressor</artifactId>
-        <version>2.4.7</version>
+        <version>2.4.8</version>
         <exclusions>
           <exclusion>
             <groupId>rhino</groupId>
@@ -483,7 +483,7 @@
       <dependency>
         <groupId>javax.mail</groupId>
         <artifactId>mail</artifactId>
-        <version>1.4.5</version>
+        <version>1.4.7</version>
       </dependency>
     
       <dependency>
@@ -508,7 +508,7 @@
       <dependency>
         <groupId>com.google.zxing</groupId>
         <artifactId>core</artifactId>
-        <version>3.2.1</version>
+        <version>3.3.0</version>
       </dependency>
 
       <dependency>
@@ -521,7 +521,7 @@
       <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
-        <version>1.0.29</version>
+        <version>1.0.31</version>
       </dependency>
       
       <dependency>
@@ -540,7 +540,7 @@
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.41</version>
+        <version>5.1.42</version>
       </dependency>
       
       <!-- jgraphx -->
