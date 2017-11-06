@@ -508,7 +508,7 @@
       <dependency>
         <groupId>com.google.zxing</groupId>
         <artifactId>core</artifactId>
-        <version>3.3.0</version>
+        <version>3.3.1</version>
       </dependency>
 
       <dependency>
@@ -521,19 +521,19 @@
       <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
-        <version>1.1.4</version>
+        <version>1.1.5</version>
       </dependency>
       
       <dependency>
         <groupId>org.apache.lucene</groupId>
         <artifactId>lucene-queryparser</artifactId>
-        <version>5.5.4</version>
+        <version>5.5.5</version>
       </dependency>
 
       <dependency>
         <groupId>org.apache.lucene</groupId>
         <artifactId>lucene-analyzers-smartcn</artifactId>
-        <version>5.5.4</version>
+        <version>5.5.5</version>
       </dependency>
       
       <!-- jdbc驱动 -->
