@@ -463,13 +463,13 @@
       <dependency>
         <groupId>com.google.zxing</groupId>
         <artifactId>core</artifactId>
-        <version>3.3.1</version>
+        <version>3.3.2</version>
       </dependency>
 
       <dependency>
         <groupId>eu.bitwalker</groupId>
         <artifactId>UserAgentUtils</artifactId>
-        <version>1.20</version>
+        <version>1.21</version>
       </dependency>
 
       <!-- 数据库连接池 -->
