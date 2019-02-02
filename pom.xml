@@ -469,9 +469,9 @@
 			</dependency>
 
 			<dependency>
-				<groupId>nl.bitwalker</groupId>
+				<groupId>eu.bitwalker</groupId>
 				<artifactId>UserAgentUtils</artifactId>
-				<version>1.2.4</version>
+				<version>1.21</version>
 			</dependency>
 
 			<!-- 数据库连接池 -->
