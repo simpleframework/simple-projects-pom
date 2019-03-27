@@ -1,569 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.simpleframework</groupId>
-	<artifactId>simple-projects-pom</artifactId>
-	<packaging>pom</packaging>
-
-	<version>1.0.0-SNAPSHOT</version>
-	<!-- <version>1.1.2</version> -->
-	<url>http://simpleframework.net</url>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<!-- 开发环境 -->
-
-		<simple.common>4.0.1-SNAPSHOT</simple.common>
-		<simple.ado>4.0.1-SNAPSHOT</simple.ado>
-		<simple.context>4.0.1-SNAPSHOT</simple.context>
-		<simple.mvc.core>4.0.1-SNAPSHOT</simple.mvc.core>
-		<simple.mvc.impl>4.0.1-SNAPSHOT</simple.mvc.impl>
-		<simple.mvc.ext>4.0.1-SNAPSHOT</simple.mvc.ext>
-		<simple.mvc.template>4.0.1-SNAPSHOT</simple.mvc.template>
-		<simple.portal>4.0.1-SNAPSHOT</simple.portal>
-
-		<simple.module.common>4.0.1-SNAPSHOT</simple.module.common>
-		<simple.module.common.web>4.0.1-SNAPSHOT</simple.module.common.web>
-
-		<simple.app.common>4.0.1-SNAPSHOT</simple.app.common>
-		<simple.app.template>4.0.1-SNAPSHOT</simple.app.template>
-
-		<simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
-		<simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
-
-		<simple.module.druid>4.0.1-SNAPSHOT</simple.module.druid>
-
-		<simple.module.pdf.service>4.0.1-SNAPSHOT</simple.module.pdf.service>
-		<simple.module.pdf.web>4.0.1-SNAPSHOT</simple.module.pdf.web>
-
-		<simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
-		<simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
-
-		<simple.module.msg.service>4.0.1-SNAPSHOT</simple.module.msg.service>
-		<simple.module.msg.web>4.0.1-SNAPSHOT</simple.module.msg.web>
-
-		<simple.module.contacts.service>4.0.1-SNAPSHOT</simple.module.contacts.service>
-		<simple.module.contacts.web>4.0.1-SNAPSHOT</simple.module.contacts.web>
-
-		<simple.module.vote.service>4.0.1-SNAPSHOT</simple.module.vote.service>
-		<simple.module.vote.web>4.0.1-SNAPSHOT</simple.module.vote.web>
-
-		<simple.module.tag.service>4.0.1-SNAPSHOT</simple.module.tag.service>
-		<simple.module.tag.web>4.0.1-SNAPSHOT</simple.module.tag.web>
-
-		<simple.module.myportal.service>4.0.1-SNAPSHOT</simple.module.myportal.service>
-		<simple.module.myportal.web>4.0.1-SNAPSHOT</simple.module.myportal.web>
-
-		<simple.module.settings.service>4.0.1-SNAPSHOT</simple.module.settings.service>
-		<simple.module.settings.web>4.0.1-SNAPSHOT</simple.module.settings.web>
-
-		<simple.module.bbs.service>4.0.1-SNAPSHOT</simple.module.bbs.service>
-		<simple.module.bbs.web>4.0.1-SNAPSHOT</simple.module.bbs.web>
-
-		<simple.module.news.service>4.0.1-SNAPSHOT</simple.module.news.service>
-		<simple.module.news.web>4.0.1-SNAPSHOT</simple.module.news.web>
-
-		<simple.module.favorite.service>4.0.1-SNAPSHOT</simple.module.favorite.service>
-		<simple.module.favorite.web>4.0.1-SNAPSHOT</simple.module.favorite.web>
-
-		<simple.module.dict.service>4.0.1-SNAPSHOT</simple.module.dict.service>
-		<simple.module.dict.web>4.0.1-SNAPSHOT</simple.module.dict.web>
-
-		<simple.module.workflow.common>4.0.1-SNAPSHOT</simple.module.workflow.common>
-		<simple.module.workflow.modeler>4.0.1-SNAPSHOT</simple.module.workflow.modeler>
-		<simple.module.workflow.service>4.0.1-SNAPSHOT</simple.module.workflow.service>
-		<simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
-
-		<simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
-
-		<!-- 部署环境 -->
-		<!-- <simple.common>4.1.2</simple.common> <simple.ado>4.1.2</simple.ado> 
-			<simple.context>4.1.1</simple.context> <simple.mvc.core>4.1.2</simple.mvc.core> 
-			<simple.mvc.impl>4.1.3</simple.mvc.impl> <simple.mvc.ext>4.1.3</simple.mvc.ext> 
-			<simple.mvc.template>4.1.1</simple.mvc.template> <simple.portal>4.1.0</simple.portal> 
-			<simple.module.common>4.1.1</simple.module.common> <simple.module.common.web>4.1.0</simple.module.common.web> 
-			<simple.app.common>4.1.1</simple.app.common> <simple.app.template>4.1.0</simple.app.template> 
-			<simple.module.log.service>4.1.0</simple.module.log.service> <simple.module.log.web>4.1.0</simple.module.log.web> 
-			<simple.module.druid>4.1.0</simple.module.druid> <simple.module.pdf.service>4.1.0</simple.module.pdf.service> 
-			<simple.module.pdf.web>4.1.0</simple.module.pdf.web> <simple.module.organization.service>4.1.1</simple.module.organization.service> 
-			<simple.module.organization.web>4.1.1</simple.module.organization.web> <simple.module.msg.service>4.1.0</simple.module.msg.service> 
-			<simple.module.msg.web>4.1.0</simple.module.msg.web> <simple.module.contacts.service>4.1.0</simple.module.contacts.service> 
-			<simple.module.contacts.web>4.1.0</simple.module.contacts.web> <simple.module.vote.service>4.1.0</simple.module.vote.service> 
-			<simple.module.vote.web>4.1.1</simple.module.vote.web> <simple.module.tag.service>4.1.0</simple.module.tag.service> 
-			<simple.module.tag.web>4.1.0</simple.module.tag.web> <simple.module.myportal.service>4.1.0</simple.module.myportal.service> 
-			<simple.module.myportal.web>4.1.0</simple.module.myportal.web> <simple.module.settings.service>4.1.0</simple.module.settings.service> 
-			<simple.module.settings.web>4.1.0</simple.module.settings.web> <simple.module.bbs.service>4.1.1</simple.module.bbs.service> 
-			<simple.module.bbs.web>4.1.1</simple.module.bbs.web> <simple.module.news.service>4.1.2</simple.module.news.service> 
-			<simple.module.news.web>4.1.2</simple.module.news.web> <simple.module.favorite.service>4.1.0</simple.module.favorite.service> 
-			<simple.module.favorite.web>4.1.0</simple.module.favorite.web> <simple.module.dict.service>4.1.1</simple.module.dict.service> 
-			<simple.module.dict.web>4.1.0</simple.module.dict.web> <simple.module.workflow.common>4.1.1</simple.module.workflow.common> 
-			<simple.module.workflow.modeler>4.1.0</simple.module.workflow.modeler> <simple.module.workflow.service>4.1.1</simple.module.workflow.service> 
-			<simple.module.workflow.web>4.1.1</simple.module.workflow.web> <simple.module.developer.web>4.1.0</simple.module.developer.web> -->
-	</properties>
-
-	<developers>
-		<developer>
-			<id>ckan77</id>
-			<name>chenkan</name>
-			<email>cknet@126.com</email>
-		</developer>
-	</developers>
-
-	<!--仓库配置 -->
-	<repositories>
-		<repository>
-			<id>public</id>
-			<url>http://maven.simpleframework.net/content/groups/public</url>
-			<snapshots>
-				<!-- 资源库加载快照版本 -->
-				<enabled>true</enabled>
-				<!-- 允许更新同步快照 -->
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-			<releases>
-				<!-- 资源库加载稳定版本 -->
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-	</repositories>
-
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.10</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
-	<dependencyManagement>
-		<dependencies>
-			<!-- simple4.x -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-common</artifactId>
-				<version>${simple.common}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-ado</artifactId>
-				<version>${simple.ado}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-context</artifactId>
-				<version>${simple.context}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-mvc-core</artifactId>
-				<version>${simple.mvc.core}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-mvc-impl</artifactId>
-				<version>${simple.mvc.impl}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-mvc-ext</artifactId>
-				<version>${simple.mvc.ext}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-mvc-template</artifactId>
-				<version>${simple.mvc.template}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-portal</artifactId>
-				<version>${simple.portal}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-common</artifactId>
-				<version>${simple.module.common}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-common-web</artifactId>
-				<version>${simple.module.common.web}</version>
-			</dependency>
-
-			<!--simple日志 -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-log-service</artifactId>
-				<version>${simple.module.log.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-log-web</artifactId>
-				<version>${simple.module.log.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-dict-service</artifactId>
-				<version>${simple.module.dict.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-dict-web</artifactId>
-				<version>${simple.module.dict.web}</version>
-			</dependency>
-
-			<!--simple消息 -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-msg-service</artifactId>
-				<version>${simple.module.msg.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-msg-web</artifactId>
-				<version>${simple.module.msg.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-tag-service</artifactId>
-				<version>${simple.module.tag.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-tag-web</artifactId>
-				<version>${simple.module.tag.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-bbs-service</artifactId>
-				<version>${simple.module.bbs.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-bbs-web</artifactId>
-				<version>${simple.module.bbs.web}</version>
-			</dependency>
-
-			<!-- simple 收藏 -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-favorite-service</artifactId>
-				<version>${simple.module.favorite.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-favorite-web</artifactId>
-				<version>${simple.module.favorite.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-myportal-service</artifactId>
-				<version>${simple.module.myportal.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-myportal-web</artifactId>
-				<version>${simple.module.myportal.web}</version>
-			</dependency>
-
-			<!-- 新闻 -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-news-service</artifactId>
-				<version>${simple.module.news.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-news-web</artifactId>
-				<version>${simple.module.news.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-vote-service</artifactId>
-				<version>${simple.module.vote.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-vote-web</artifactId>
-				<version>${simple.module.vote.web}</version>
-			</dependency>
-
-			<!-- simple pdf -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-pdf-service</artifactId>
-				<version>${simple.module.pdf.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-pdf-web</artifactId>
-				<version>${simple.module.pdf.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-settings-service</artifactId>
-				<version>${simple.module.settings.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-settings-web</artifactId>
-				<version>${simple.module.settings.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-druid</artifactId>
-				<version>${simple.module.druid}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-contacts-service</artifactId>
-				<version>${simple.module.contacts.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-contacts-web</artifactId>
-				<version>${simple.module.contacts.web}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-organization-service</artifactId>
-				<version>${simple.module.organization.service}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-organization-web</artifactId>
-				<version>${simple.module.organization.web}</version>
-			</dependency>
-
-			<!-- simple 工作流 -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-workflow-common</artifactId>
-				<version>${simple.module.workflow.common}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-workflow-modeler</artifactId>
-				<version>${simple.module.workflow.modeler}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-workflow-service</artifactId>
-				<version>${simple.module.workflow.service}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-module-workflow-web</artifactId>
-				<version>${simple.module.workflow.web}</version>
-			</dependency>
-
-			<!-- simple app common -->
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-app-common</artifactId>
-				<version>${simple.app.common}</version>
-			</dependency>
-			<dependency>
-				<groupId>net.simpleframework</groupId>
-				<artifactId>simple-app-template</artifactId>
-				<version>${simple.app.template}</version>
-			</dependency>
-
-			<!-- web容器包 -->
-			<dependency>
-				<groupId>javax.servlet</groupId>
-				<artifactId>javax.servlet-api</artifactId>
-				<version>3.0.1</version>
-				<scope>provided</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>javax.servlet.jsp</groupId>
-				<artifactId>javax.servlet.jsp-api</artifactId>
-				<version>2.3.1</version>
-				<scope>provided</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>org.apache.ant</groupId>
-				<artifactId>ant</artifactId>
-				<version>1.10.1</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.yahoo.platform.yui</groupId>
-				<artifactId>yuicompressor</artifactId>
-				<version>2.4.8</version>
-				<exclusions>
-					<exclusion>
-						<groupId>rhino</groupId>
-						<artifactId>js</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-
-			<dependency>
-				<groupId>com.belerweb</groupId>
-				<artifactId>pinyin4j</artifactId>
-				<version>2.5.1</version>
-			</dependency>
-
-			<!-- 邮件 -->
-			<dependency>
-				<groupId>javax.mail</groupId>
-				<artifactId>mail</artifactId>
-				<version>1.4.7</version>
-			</dependency>
-
-			<dependency>
-				<groupId>redis.clients</groupId>
-				<artifactId>jedis</artifactId>
-				<version>2.10.2</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.caucho</groupId>
-				<artifactId>hessian</artifactId>
-				<version>4.0.51</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.esotericsoftware</groupId>
-				<artifactId>kryo</artifactId>
-				<version>4.0.0</version>
-			</dependency>
-
-			<!-- 二维码库 -->
-			<dependency>
-				<groupId>com.google.zxing</groupId>
-				<artifactId>core</artifactId>
-				<version>3.3.3</version>
-			</dependency>
-
-			<dependency>
-				<groupId>eu.bitwalker</groupId>
-				<artifactId>UserAgentUtils</artifactId>
-				<version>1.21</version>
-			</dependency>
-
-			<!-- 数据库连接池 -->
-			<dependency>
-				<groupId>com.alibaba</groupId>
-				<artifactId>druid</artifactId>
-				<version>1.1.13</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.apache.lucene</groupId>
-				<artifactId>lucene-queryparser</artifactId>
-				<version>5.5.5</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.apache.lucene</groupId>
-				<artifactId>lucene-analyzers-smartcn</artifactId>
-				<version>5.5.5</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.cometd.java</groupId>
-				<artifactId>cometd-java-server</artifactId>
-				<version>3.1.3</version>
-			</dependency>
-
-			<!-- jdbc驱动 -->
-			<dependency>
-				<groupId>mysql</groupId>
-				<artifactId>mysql-connector-java</artifactId>
-				<version>5.1.47</version>
-			</dependency>
-
-			<!-- jgraphx -->
-			<dependency>
-				<groupId>org.tinyjee.jgraphx</groupId>
-				<artifactId>jgraphx</artifactId>
-				<version>2.3.0.5</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
-	<build>
-		<!-- 打包资源文件到jar包 -->
-		<resources>
-			<resource>
-				<directory>src\main\java</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources>
-
-		<plugins>
-			<!--编译插件 安装指令 source:jar install -U 或执行install.bat -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
-				<configuration>
-					<encoding>utf-8</encoding>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.3</version>
-				<configuration>
-					<packagingExcludes>$*/**</packagingExcludes>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
-	<distributionManagement>
-		<!-- 发布稳定版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
-		<repository>
-			<id>releases</id>
-			<url>http://maven.simpleframework.net/content/repositories/releases</url>
-		</repository>
-
-		<!-- 发布快照版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>http://maven.simpleframework.net/content/repositories/snapshots</url>
-		</snapshotRepository>
-
-		<!-- <snapshotRepository> <id>snapshots</id> <url>http://maven.simpleframework.net/content/repositories/pom-snapshots</url> 
-			</snapshotRepository> -->
-	</distributionManagement>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.simpleframework</groupId>
+  <artifactId>simple-projects-pom</artifactId>
+  <packaging>pom</packaging>
+
+  <version>1.0.0-SNAPSHOT</version>
+  <!-- <version>1.1.2</version> -->
+  <url>http://simpleframework.net</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- 开发环境 -->
+
+    <simple.common>4.0.1-SNAPSHOT</simple.common>
+    <simple.ado>4.0.1-SNAPSHOT</simple.ado>
+    <simple.context>4.0.1-SNAPSHOT</simple.context>
+    <simple.mvc.core>4.0.1-SNAPSHOT</simple.mvc.core>
+    <simple.mvc.impl>4.0.1-SNAPSHOT</simple.mvc.impl>
+    <simple.mvc.ext>4.0.1-SNAPSHOT</simple.mvc.ext>
+    <simple.mvc.template>4.0.1-SNAPSHOT</simple.mvc.template>
+    <simple.portal>4.0.1-SNAPSHOT</simple.portal>
+
+    <simple.module.common>4.0.1-SNAPSHOT</simple.module.common>
+    <simple.module.common.web>4.0.1-SNAPSHOT</simple.module.common.web>
+
+    <simple.app.common>4.0.1-SNAPSHOT</simple.app.common>
+    <simple.app.template>4.0.1-SNAPSHOT</simple.app.template>
+
+    <simple.module.log.service>4.0.1-SNAPSHOT</simple.module.log.service>
+    <simple.module.log.web>4.0.1-SNAPSHOT</simple.module.log.web>
+
+    <simple.module.druid>4.0.1-SNAPSHOT</simple.module.druid>
+
+    <simple.module.pdf.service>4.0.1-SNAPSHOT</simple.module.pdf.service>
+    <simple.module.pdf.web>4.0.1-SNAPSHOT</simple.module.pdf.web>
+
+    <simple.module.organization.service>4.0.1-SNAPSHOT</simple.module.organization.service>
+    <simple.module.organization.web>4.0.1-SNAPSHOT</simple.module.organization.web>
+
+    <simple.module.msg.service>4.0.1-SNAPSHOT</simple.module.msg.service>
+    <simple.module.msg.web>4.0.1-SNAPSHOT</simple.module.msg.web>
+
+    <simple.module.contacts.service>4.0.1-SNAPSHOT</simple.module.contacts.service>
+    <simple.module.contacts.web>4.0.1-SNAPSHOT</simple.module.contacts.web>
+
+    <simple.module.vote.service>4.0.1-SNAPSHOT</simple.module.vote.service>
+    <simple.module.vote.web>4.0.1-SNAPSHOT</simple.module.vote.web>
+
+    <simple.module.tag.service>4.0.1-SNAPSHOT</simple.module.tag.service>
+    <simple.module.tag.web>4.0.1-SNAPSHOT</simple.module.tag.web>
+
+    <simple.module.myportal.service>4.0.1-SNAPSHOT</simple.module.myportal.service>
+    <simple.module.myportal.web>4.0.1-SNAPSHOT</simple.module.myportal.web>
+
+    <simple.module.settings.service>4.0.1-SNAPSHOT</simple.module.settings.service>
+    <simple.module.settings.web>4.0.1-SNAPSHOT</simple.module.settings.web>
+
+    <simple.module.bbs.service>4.0.1-SNAPSHOT</simple.module.bbs.service>
+    <simple.module.bbs.web>4.0.1-SNAPSHOT</simple.module.bbs.web>
+
+    <simple.module.news.service>4.0.1-SNAPSHOT</simple.module.news.service>
+    <simple.module.news.web>4.0.1-SNAPSHOT</simple.module.news.web>
+
+    <simple.module.favorite.service>4.0.1-SNAPSHOT</simple.module.favorite.service>
+    <simple.module.favorite.web>4.0.1-SNAPSHOT</simple.module.favorite.web>
+
+    <simple.module.dict.service>4.0.1-SNAPSHOT</simple.module.dict.service>
+    <simple.module.dict.web>4.0.1-SNAPSHOT</simple.module.dict.web>
+
+    <simple.module.workflow.common>4.0.1-SNAPSHOT</simple.module.workflow.common>
+    <simple.module.workflow.modeler>4.0.1-SNAPSHOT</simple.module.workflow.modeler>
+    <simple.module.workflow.service>4.0.1-SNAPSHOT</simple.module.workflow.service>
+    <simple.module.workflow.web>4.0.1-SNAPSHOT</simple.module.workflow.web>
+
+    <simple.module.developer.web>4.0.1-SNAPSHOT</simple.module.developer.web>
+
+    <!-- 部署环境 -->
+    <!-- <simple.common>4.1.2</simple.common> <simple.ado>4.1.2</simple.ado> <simple.context>4.1.1</simple.context> 
+      <simple.mvc.core>4.1.2</simple.mvc.core> <simple.mvc.impl>4.1.3</simple.mvc.impl> <simple.mvc.ext>4.1.3</simple.mvc.ext> 
+      <simple.mvc.template>4.1.1</simple.mvc.template> <simple.portal>4.1.0</simple.portal> <simple.module.common>4.1.1</simple.module.common> 
+      <simple.module.common.web>4.1.0</simple.module.common.web> <simple.app.common>4.1.1</simple.app.common> 
+      <simple.app.template>4.1.0</simple.app.template> <simple.module.log.service>4.1.0</simple.module.log.service> 
+      <simple.module.log.web>4.1.0</simple.module.log.web> <simple.module.druid>4.1.0</simple.module.druid> 
+      <simple.module.pdf.service>4.1.0</simple.module.pdf.service> <simple.module.pdf.web>4.1.0</simple.module.pdf.web> 
+      <simple.module.organization.service>4.1.1</simple.module.organization.service> <simple.module.organization.web>4.1.1</simple.module.organization.web> 
+      <simple.module.msg.service>4.1.0</simple.module.msg.service> <simple.module.msg.web>4.1.0</simple.module.msg.web> 
+      <simple.module.contacts.service>4.1.0</simple.module.contacts.service> <simple.module.contacts.web>4.1.0</simple.module.contacts.web> 
+      <simple.module.vote.service>4.1.0</simple.module.vote.service> <simple.module.vote.web>4.1.1</simple.module.vote.web> 
+      <simple.module.tag.service>4.1.0</simple.module.tag.service> <simple.module.tag.web>4.1.0</simple.module.tag.web> 
+      <simple.module.myportal.service>4.1.0</simple.module.myportal.service> <simple.module.myportal.web>4.1.0</simple.module.myportal.web> 
+      <simple.module.settings.service>4.1.0</simple.module.settings.service> <simple.module.settings.web>4.1.0</simple.module.settings.web> 
+      <simple.module.bbs.service>4.1.1</simple.module.bbs.service> <simple.module.bbs.web>4.1.1</simple.module.bbs.web> 
+      <simple.module.news.service>4.1.2</simple.module.news.service> <simple.module.news.web>4.1.2</simple.module.news.web> 
+      <simple.module.favorite.service>4.1.0</simple.module.favorite.service> <simple.module.favorite.web>4.1.0</simple.module.favorite.web> 
+      <simple.module.dict.service>4.1.1</simple.module.dict.service> <simple.module.dict.web>4.1.0</simple.module.dict.web> 
+      <simple.module.workflow.common>4.1.1</simple.module.workflow.common> <simple.module.workflow.modeler>4.1.0</simple.module.workflow.modeler> 
+      <simple.module.workflow.service>4.1.1</simple.module.workflow.service> <simple.module.workflow.web>4.1.1</simple.module.workflow.web> 
+      <simple.module.developer.web>4.1.0</simple.module.developer.web> -->
+  </properties>
+
+  <developers>
+    <developer>
+      <id>ckan77</id>
+      <name>chenkan</name>
+      <email>cknet@126.com</email>
+    </developer>
+  </developers>
+
+  <!--仓库配置 -->
+  <repositories>
+    <repository>
+      <id>public</id>
+      <url>http://maven.simpleframework.net/content/groups/public</url>
+      <snapshots>
+        <!-- 资源库加载快照版本 -->
+        <enabled>true</enabled>
+        <!-- 允许更新同步快照 -->
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+      <releases>
+        <!-- 资源库加载稳定版本 -->
+        <enabled>true</enabled>
+      </releases>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- simple4.x -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-common</artifactId>
+        <version>${simple.common}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-ado</artifactId>
+        <version>${simple.ado}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-context</artifactId>
+        <version>${simple.context}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-core</artifactId>
+        <version>${simple.mvc.core}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-impl</artifactId>
+        <version>${simple.mvc.impl}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-ext</artifactId>
+        <version>${simple.mvc.ext}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-mvc-template</artifactId>
+        <version>${simple.mvc.template}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-portal</artifactId>
+        <version>${simple.portal}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-common</artifactId>
+        <version>${simple.module.common}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-common-web</artifactId>
+        <version>${simple.module.common.web}</version>
+      </dependency>
+
+      <!--simple日志 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-log-service</artifactId>
+        <version>${simple.module.log.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-log-web</artifactId>
+        <version>${simple.module.log.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-dict-service</artifactId>
+        <version>${simple.module.dict.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-dict-web</artifactId>
+        <version>${simple.module.dict.web}</version>
+      </dependency>
+
+      <!--simple消息 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-msg-service</artifactId>
+        <version>${simple.module.msg.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-msg-web</artifactId>
+        <version>${simple.module.msg.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-tag-service</artifactId>
+        <version>${simple.module.tag.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-tag-web</artifactId>
+        <version>${simple.module.tag.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-bbs-service</artifactId>
+        <version>${simple.module.bbs.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-bbs-web</artifactId>
+        <version>${simple.module.bbs.web}</version>
+      </dependency>
+
+      <!-- simple 收藏 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-favorite-service</artifactId>
+        <version>${simple.module.favorite.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-favorite-web</artifactId>
+        <version>${simple.module.favorite.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-myportal-service</artifactId>
+        <version>${simple.module.myportal.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-myportal-web</artifactId>
+        <version>${simple.module.myportal.web}</version>
+      </dependency>
+
+      <!-- 新闻 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-news-service</artifactId>
+        <version>${simple.module.news.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-news-web</artifactId>
+        <version>${simple.module.news.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-vote-service</artifactId>
+        <version>${simple.module.vote.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-vote-web</artifactId>
+        <version>${simple.module.vote.web}</version>
+      </dependency>
+
+      <!-- simple pdf -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-pdf-service</artifactId>
+        <version>${simple.module.pdf.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-pdf-web</artifactId>
+        <version>${simple.module.pdf.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-settings-service</artifactId>
+        <version>${simple.module.settings.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-settings-web</artifactId>
+        <version>${simple.module.settings.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-druid</artifactId>
+        <version>${simple.module.druid}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-contacts-service</artifactId>
+        <version>${simple.module.contacts.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-contacts-web</artifactId>
+        <version>${simple.module.contacts.web}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-organization-service</artifactId>
+        <version>${simple.module.organization.service}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-organization-web</artifactId>
+        <version>${simple.module.organization.web}</version>
+      </dependency>
+
+      <!-- simple 工作流 -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-common</artifactId>
+        <version>${simple.module.workflow.common}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-modeler</artifactId>
+        <version>${simple.module.workflow.modeler}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-service</artifactId>
+        <version>${simple.module.workflow.service}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-module-workflow-web</artifactId>
+        <version>${simple.module.workflow.web}</version>
+      </dependency>
+
+      <!-- simple app common -->
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-app-common</artifactId>
+        <version>${simple.app.common}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.simpleframework</groupId>
+        <artifactId>simple-app-template</artifactId>
+        <version>${simple.app.template}</version>
+      </dependency>
+
+      <!-- web容器包 -->
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.servlet.jsp</groupId>
+        <artifactId>javax.servlet.jsp-api</artifactId>
+        <version>2.3.1</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.ant</groupId>
+        <artifactId>ant</artifactId>
+        <version>1.10.1</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.yahoo.platform.yui</groupId>
+        <artifactId>yuicompressor</artifactId>
+        <version>2.4.8</version>
+        <exclusions>
+          <exclusion>
+            <groupId>rhino</groupId>
+            <artifactId>js</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <dependency>
+        <groupId>com.belerweb</groupId>
+        <artifactId>pinyin4j</artifactId>
+        <version>2.5.1</version>
+      </dependency>
+
+      <!-- 邮件 -->
+      <dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>mail</artifactId>
+        <version>1.4.7</version>
+      </dependency>
+
+      <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+        <version>2.10.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.caucho</groupId>
+        <artifactId>hessian</artifactId>
+        <version>4.0.51</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.esotericsoftware</groupId>
+        <artifactId>kryo</artifactId>
+        <version>4.0.0</version>
+      </dependency>
+
+      <!-- 二维码库 -->
+      <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>core</artifactId>
+        <version>3.3.3</version>
+      </dependency>
+
+      <dependency>
+        <groupId>eu.bitwalker</groupId>
+        <artifactId>UserAgentUtils</artifactId>
+        <version>1.21</version>
+      </dependency>
+
+      <!-- 数据库连接池 -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>1.1.13</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-queryparser</artifactId>
+        <version>5.5.5</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.lucene</groupId>
+        <artifactId>lucene-analyzers-smartcn</artifactId>
+        <version>5.5.5</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.cometd.java</groupId>
+        <artifactId>cometd-java-server</artifactId>
+        <version>3.1.3</version>
+      </dependency>
+
+      <!-- jdbc驱动 -->
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.47</version>
+      </dependency>
+
+      <!-- jgraphx -->
+      <dependency>
+        <groupId>org.tinyjee.jgraphx</groupId>
+        <artifactId>jgraphx</artifactId>
+        <version>2.3.0.5</version>
+      </dependency>
+
+      <!-- html解析 -->
+      <dependency>
+        <groupId>net.sourceforge.htmlunit</groupId>
+        <artifactId>htmlunit</artifactId>
+        <version>2.34.1</version>
+      </dependency>
+
+      <!-- com.aliyun -->
+      <dependency>
+        <groupId>com.aliyun</groupId>
+        <artifactId>aliyun-java-sdk-core</artifactId>
+        <version>4.3.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aliyun.oss</groupId>
+        <artifactId>aliyun-sdk-oss</artifactId>
+        <version>3.4.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aliyun</groupId>
+        <artifactId>aliyun-java-sdk-live</artifactId>
+        <version>3.7.3</version>
+      </dependency>
+      <dependency>
+        <groupId>com.aliyun</groupId>
+        <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+        <version>1.1.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <!-- 打包资源文件到jar包 -->
+    <resources>
+      <resource>
+        <directory>src\main\java</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+
+    <plugins>
+      <!--编译插件 安装指令 source:jar install -U 或执行install.bat -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <encoding>utf-8</encoding>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <packagingExcludes>$*/**</packagingExcludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <!-- 发布稳定版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
+    <repository>
+      <id>releases</id>
+      <url>http://maven.simpleframework.net/content/repositories/releases</url>
+    </repository>
+
+    <!-- 发布快照版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://maven.simpleframework.net/content/repositories/snapshots</url>
+    </snapshotRepository>
+
+    <!-- <snapshotRepository> <id>snapshots</id> <url>http://maven.simpleframework.net/content/repositories/pom-snapshots</url> 
+      </snapshotRepository> -->
+  </distributionManagement>
 </project>
