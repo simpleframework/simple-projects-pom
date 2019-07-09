@@ -496,7 +496,13 @@
 			<dependency>
 				<groupId>org.cometd.java</groupId>
 				<artifactId>cometd-java-server</artifactId>
-				<version>3.1.10</version>
+				<version>4.0.4</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.cometd.java</groupId>
+				<artifactId>cometd-java-websocket-javax-server</artifactId>
+				<version>4.0.4</version>
 			</dependency>
 
 			<!-- jdbc驱动 -->
