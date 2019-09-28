@@ -525,6 +525,13 @@
 				<artifactId>htmlunit</artifactId>
 				<version>2.35.0</version>
 			</dependency>
+      
+      <!-- mp4解析 -->
+      <dependency>
+        <groupId>org.mp4parser</groupId>
+        <artifactId>isoparser</artifactId>
+        <version>1.9.41</version>
+      </dependency>
 
 			<!-- com.aliyun -->
 			<dependency>
