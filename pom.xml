@@ -478,7 +478,7 @@
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
-				<version>1.1.19</version>
+				<version>1.1.20</version>
 			</dependency>
 
 			<dependency>
@@ -523,26 +523,19 @@
 			<dependency>
 				<groupId>net.sourceforge.htmlunit</groupId>
 				<artifactId>htmlunit</artifactId>
-				<version>2.35.0</version>
+				<version>2.36.0</version>
 			</dependency>
-      
-      <!-- mp4解析 -->
-      <dependency>
-        <groupId>org.mp4parser</groupId>
-        <artifactId>isoparser</artifactId>
-        <version>1.9.41</version>
-      </dependency>
-
+     
 			<!-- com.aliyun -->
 			<dependency>
 				<groupId>com.aliyun</groupId>
 				<artifactId>aliyun-java-sdk-core</artifactId>
-				<version>4.4.2</version>
+				<version>4.4.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aliyun.oss</groupId>
 				<artifactId>aliyun-sdk-oss</artifactId>
-				<version>3.4.2</version>
+				<version>3.6.0</version>
 				<exclusions>
 					<exclusion>
 						<groupId>com.aliyun</groupId>
@@ -557,7 +550,7 @@
 			<dependency>
 				<groupId>com.aliyun</groupId>
 				<artifactId>aliyun-java-sdk-live</artifactId>
-				<version>3.7.4</version>
+				<version>3.8.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aliyun</groupId>
