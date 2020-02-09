@@ -534,14 +534,14 @@
       <dependency>
         <groupId>net.sourceforge.htmlunit</groupId>
         <artifactId>htmlunit</artifactId>
-        <version>2.36.0</version>
+        <version>2.37.0</version>
       </dependency>
 
       <!-- com.aliyun -->
       <dependency>
         <groupId>com.aliyun</groupId>
         <artifactId>aliyun-java-sdk-core</artifactId>
-        <version>4.4.9</version>
+        <version>4.5.0</version>
       </dependency>
       <dependency>
         <groupId>com.aliyun.oss</groupId>
