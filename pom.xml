@@ -445,7 +445,7 @@
       <dependency>
         <groupId>redis.clients</groupId>
         <artifactId>jedis</artifactId>
-        <version>3.2.0</version>
+        <version>3.3.0</version>
       </dependency>
 
       <dependency>
@@ -477,7 +477,7 @@
       <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
-        <version>1.1.21</version>
+        <version>1.1.22</version>
       </dependency>
 
       <dependency>
@@ -495,20 +495,20 @@
       <dependency>
         <groupId>org.cometd.java</groupId>
         <artifactId>cometd-java-server</artifactId>
-        <version>4.0.6</version>
+        <version>4.0.7</version>
       </dependency>
 
       <dependency>
         <groupId>org.cometd.java</groupId>
         <artifactId>cometd-java-websocket-javax-server</artifactId>
-        <version>4.0.6</version>
+        <version>4.0.7</version>
       </dependency>
 
       <!-- jdbc驱动 -->
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <version>5.1.48</version>
+        <version>5.1.49</version>
       </dependency>
 
       <!-- jgraphx -->
@@ -534,19 +534,19 @@
       <dependency>
         <groupId>net.sourceforge.htmlunit</groupId>
         <artifactId>htmlunit</artifactId>
-        <version>2.38.0</version>
+        <version>2.40.0</version>
       </dependency>
 
       <!-- com.aliyun -->
       <dependency>
         <groupId>com.aliyun</groupId>
         <artifactId>aliyun-java-sdk-core</artifactId>
-        <version>4.5.0</version>
+        <version>4.5.1</version>
       </dependency>
       <dependency>
         <groupId>com.aliyun.oss</groupId>
         <artifactId>aliyun-sdk-oss</artifactId>
-        <version>3.8.1</version>
+        <version>3.9.1</version>
         <exclusions>
           <exclusion>
             <groupId>com.aliyun</groupId>
@@ -561,7 +561,7 @@
       <dependency>
         <groupId>com.aliyun</groupId>
         <artifactId>aliyun-java-sdk-live</artifactId>
-        <version>3.8.0</version>
+        <version>3.9.0</version>
       </dependency>
       <dependency>
         <groupId>com.aliyun</groupId>
