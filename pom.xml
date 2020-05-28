@@ -453,13 +453,7 @@
         <artifactId>hessian</artifactId>
         <version>4.0.63</version>
       </dependency>
-
-      <dependency>
-        <groupId>com.esotericsoftware</groupId>
-        <artifactId>kryo</artifactId>
-        <version>4.0.2</version>
-      </dependency>
-
+      			
       <!-- 二维码库 -->
       <dependency>
         <groupId>com.google.zxing</groupId>
