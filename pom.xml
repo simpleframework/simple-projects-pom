@@ -486,18 +486,17 @@
         <version>5.5.5</version>
       </dependency>
 
-      <dependency>
-        <groupId>org.cometd.java</groupId>
-        <artifactId>cometd-java-server</artifactId>
-        <version>4.0.9</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.cometd.java</groupId>
-        <artifactId>cometd-java-websocket-javax-server</artifactId>
-        <version>4.0.9</version>
-      </dependency>
-
+	  	<dependency>
+    		<groupId>org.cometd.java</groupId>
+    		<artifactId>cometd-java-server-common</artifactId>
+    		<version>5.0.4</version>
+			</dependency>
+			<dependency>
+				<groupId>org.cometd.java</groupId>
+				<artifactId>cometd-java-server-websocket-javax</artifactId>
+				<version>5.0.4</version>
+			</dependency>  
+			
       <!-- jdbc驱动 -->
       <dependency>
         <groupId>mysql</groupId>
@@ -569,7 +568,7 @@
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>
-      </resource>
+      </resource> 
     </resources>
 
     <plugins>
