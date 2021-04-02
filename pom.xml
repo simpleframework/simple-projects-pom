@@ -579,8 +579,8 @@
         <version>2.3.2</version>
         <configuration>
           <encoding>utf-8</encoding>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 
@@ -594,21 +594,31 @@
       </plugin>
     </plugins>
   </build>
-
+  
+	<distributionManagement>
+		<!-- 发布稳定版本到nexus服务 指令mvn clean deploy -DskipTests -->
+		<!-- clean source:jar deploy -DskipTests -->
+		<repository>
+			<id>crdt-releases</id>
+			<url>https://packages.aliyun.com/maven/repository/2085194-release-FOD4x0</url>
+		</repository>
+		<snapshotRepository>
+			<id>crdt-snapshots</id>
+			<url>https://packages.aliyun.com/maven/repository/2085194-snapshot-P80h2E</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
+	<!--  
   <distributionManagement>
-    <!-- 发布稳定版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
     <repository>
       <id>releases</id>
       <url>http://maven.simpleframework.net/content/repositories/releases</url>
     </repository>
 
-    <!-- 发布快照版本到nexus服务 指令clean source:jar deploy -U 或执行deploy.bat -->
     <snapshotRepository>
       <id>snapshots</id>
       <url>http://maven.simpleframework.net/content/repositories/snapshots</url>
     </snapshotRepository>
-
-    <!-- <snapshotRepository> <id>snapshots</id> <url>http://maven.simpleframework.net/content/repositories/pom-snapshots</url> 
-      </snapshotRepository> -->
   </distributionManagement>
+  -->
 </project>
