@@ -595,9 +595,9 @@
     </plugins>
   </build>
   
-	<distributionManagement>
-		<!-- 发布稳定版本到nexus服务 指令mvn clean deploy -DskipTests -->
-		<!-- clean source:jar deploy -DskipTests -->
+  <!-- 发布稳定版本到nexus服务 指令mvn clean deploy -DskipTests -->
+	<!-- clean source:jar deploy -DskipTests -->
+	<distributionManagement>	
 		<repository>
 			<id>crdt-releases</id>
 			<url>https://packages.aliyun.com/maven/repository/2085194-release-FOD4x0</url>
@@ -608,7 +608,7 @@
 		</snapshotRepository>
 	</distributionManagement>
   
-	<!--  
+	<!--
   <distributionManagement>
     <repository>
       <id>releases</id>
