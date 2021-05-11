@@ -497,6 +497,13 @@
 				<version>5.0.4</version>
 			</dependency>  
 			
+			<!-- Hutool工具包 -->
+      <dependency>
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-all</artifactId>
+        <version>5.6.5</version>
+      </dependency>
+			
       <!-- jdbc驱动 -->
       <dependency>
         <groupId>mysql</groupId>
